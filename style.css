@@ -1,0 +1,88 @@
+/*body tag, senf font, background image*/
+body {
+	font-family: 'Encode Sans Expanded', sans-serif;
+	background-color: black;
+}
+
+/*fixed canvas, full width of page with z index*/
+canvas {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -10;
+}
+
+/*title button*/
+.title {
+	cursor:pointer;
+	border-style: groove;
+	border-color: #e8c8a7;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	padding:1px 3px;
+	border-radius:28px;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	text-align: center;
+	color: #f2e4b0;
+	font-size: 0.7vw;
+	display: inline;
+	background-image: url("iconback.jpg");
+	background-size: cover;
+}
+
+.title:hover {
+	background: #e8c83a;
+	color: #e8593a;
+}
+
+
+/*heading*/
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+  text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+  0 3px 0 #777777, 0 4px 0 #666666,
+  0 5px 0 #555555, 0 6px 0 #444444,
+  0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+  0 9px 10px rgba(0, 0, 0, 0.2);
+  color: #ffdd93;
+}
+
+/*Loading... text*/
+.wait {
+  font-size: 30px;
+  text-align: center;
+  margin: 100px auto;
+  text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+  0 1px 0 #777777, 0 2px 0 #666666,
+  0 2px 0 #555555, 0 3px 0 #444444,
+  0 3px 0 #333333, 0 4px 7px rgba(0, 0, 0, 0.4),
+  0 4px 5px rgba(0, 0, 0, 0.2);
+  color: #ffdd93;
+}
+/*about button*/
+.about {
+	cursor:pointer;
+	border-style: groove;
+	border-color: #e8c8a7;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	padding:1px 3px;
+	border-radius:28px;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	text-align: center;
+	color: #f2e4b0;
+	font-size: 0.7vw;
+	display: inline;
+	background-image: url("iconback.jpg");
+	background-size: cover;
+}
+
+.about:hover {
+	background: #e8c83a;
+	color: #e8593a;
+}
